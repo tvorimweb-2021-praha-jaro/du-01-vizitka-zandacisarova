@@ -37,6 +37,7 @@ h2 {
 
 .omne p {
     margin: 30px;
+    position:inherit;
 }
 img {
     width: 250px;
