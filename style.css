@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+    }
+    *,
+*:before,
+*:after {
+  box-sizing: inherit;
+  }
+body {
+    background-color: rgb(147, 173, 207);
+    margin: 200px;
+    padding: 0 100px;
+    color: rgb(66, 99, 143); 
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgb(199, 220, 248);
+    
+}
+
+
+h2 {
+    margin-top: 1,5em;
+    padding-left: 1em;
+    
+}
+
+.omne {
+    color:rgb(199, 220, 248);
+    text-shadow: 2px 2px 4px rgb(66, 99, 143);
+    text-align:justify;
+    overflow: visible;
+    float:justify;
+   /* nepodařilo se mi docílit toho, aby byl text vedle obrázku uprostřed ze všech stran, prosím o řešení.*/
+
+}
+
+.omne p {
+    margin: 30px;
+}
+img {
+    width: 250px;
+    margin: 30px 30px 30px 30px; 
+    border-radius: 3em 3em 3em 3em;
+    box-shadow: 2px 2px 25px  rgb(66, 99, 143);
+    float:left;    
+}
+.omne a{
+    color: rgb(66, 99, 143);
+    text-decoration: none;
+}
+.kontakt a{
+    color:rgb(199, 220, 248); 
+    text-decoration: none;
+}
+.omne a:hover {
+    color:rgb(199, 220, 248);
+}
+.kontakt a:hover{
+    color:rgb(66, 99, 143) ;
+}
+
+.kontakt {
+    font-size: 15pt;
+   /*prosím o řešení, tak tento text dostanu na nejnižší pozici aby byl zarovnaný se spodní hranou obrázku. */
+}
