@@ -7,27 +7,29 @@ html {
   box-sizing: inherit;
   }
 body {
-    background-color: rgb(147, 173, 207);
+    background-color:#98C1D9;
     margin: 200px;
     padding: 0 100px;
-    color: rgb(66, 99, 143); 
+    color: #293241; 
     font-family: 'Roboto', sans-serif; 
     font-style: normal;
-    font-size: 25px;
-    text-shadow: 2px 2px 4px rgb(199, 220, 248);
-    
+    font-size: 25px;   
 }
 
+h1 {
+    text-shadow:2px 2px 4px #E0FBFC;
+}
 
 h2 {
     margin-top: 1,5em;
     padding-left: 1em;
+    text-shadow:2px 2px 4px #E0FBFC;
     
-}
+ }
 
 .omne {
-    color:rgb(199, 220, 248);
-    text-shadow: 2px 2px 4px rgb(66, 99, 143);
+    color:#E0FBFC;
+    text-shadow: 2px 2px 4px#293241;
     text-align:justify;
     overflow: visible;
     float:justify;
@@ -39,29 +41,37 @@ h2 {
     margin: 30px;
     position:inherit;
 }
+
 img {
     width: 250px;
     margin: 30px 30px 30px 30px; 
     border-radius: 3em 3em 3em 3em;
-    box-shadow: 2px 2px 25px  rgb(66, 99, 143);
-    float:left;    
+    box-shadow: 2px 2px 25px #293241;
+    float:left;        
 }
-.omne a{
-    color: rgb(66, 99, 143);
+
+.omne a {
+    color: #E0FBFC;
     text-decoration: none;
+    text-shadow:none;
 }
-.kontakt a{
-    color:rgb(199, 220, 248); 
+
+.kontakt a {
+    color:#293241; 
     text-decoration: none;
-}
+    text-shadow: none;
+    }
+
 .omne a:hover {
-    color:rgb(199, 220, 248);
+    color: #EE6C4D;
 }
-.kontakt a:hover{
-    color:rgb(66, 99, 143) ;
+
+.kontakt a:hover {
+    color:#EE6C4D;
 }
 
 .kontakt {
     font-size: 15pt;
+    text-shadow:2px 2px 4px #E0FBFC;
    /*prosím o řešení, tak tento text dostanu na nejnižší pozici aby byl zarovnaný se spodní hranou obrázku. */
 }
