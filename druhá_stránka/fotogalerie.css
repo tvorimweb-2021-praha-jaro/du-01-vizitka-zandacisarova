@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+    }
+    *,
+*:before,
+*:after {
+  box-sizing: inherit;
+  }
+
+img nav {
+    box-shadow: 2px 2px 2px 2px #000;
+}
