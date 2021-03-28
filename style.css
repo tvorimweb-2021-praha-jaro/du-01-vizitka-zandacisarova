@@ -8,8 +8,9 @@ html {
   }
 body {
     background-color:#98C1D9;
-    margin: 200px;
-    padding: 0 100px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
     color: #293241; 
     font-family: 'Roboto', sans-serif; 
     font-style: normal;
@@ -17,13 +18,13 @@ body {
 }
 
 h1 {
-    text-shadow:2px 2px 4px #E0FBFC;
+    text-shadow:3px 3px 0 #E0FBFC;
 }
 
 h2 {
     margin-top: 1,5em;
     padding-left: 1em;
-    text-shadow:2px 2px 4px #E0FBFC;
+    text-shadow:3px 3px 0 #E0FBFC;
     
  }
 
@@ -72,6 +73,6 @@ img {
 
 .kontakt {
     font-size: 15pt;
-    text-shadow:2px 2px 4px #E0FBFC;
+    text-shadow:2px 2px 2px #E0FBFC;
    /*prosím o řešení, tak tento text dostanu na nejnižší pozici aby byl zarovnaný se spodní hranou obrázku. */
 }
